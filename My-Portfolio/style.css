@@ -167,6 +167,7 @@ body{
 
 
 .section {
+    display: flex;
     min-height: 100vh  ;
     padding: 8rem 5% 5rem;
     gap: 2rem;
@@ -194,18 +195,20 @@ body{
 }
 
 /* for second image  */
-
 /* .image-container{
     width: 285px;
     height: 340px;
     border-radius: 30px;
-} */
+    position: relative;
+    overflow: hidden;
+
+}  */
 
 
 /* About section */
 .skills{
     margin-top: 2rem ;
-
+    width: 100%;
 
 }
 .skills-items{
@@ -233,7 +236,13 @@ body{
 } 
 
 
+#resume {
+    padding: 10px;
+    /* color: aquamarine;
+    font-size: 1rem; */
+}
 .resume {
+    padding: 10px;
     color: aquamarine;
     font-size: 1rem;
 }
@@ -383,8 +392,17 @@ body{
 .info-item p {
     color: #8892b0;
 }
-.section-image{
+/* .section-image{
     display: flex;
     justify-content: right;
     margin-bottom: 600px;
+} */
+.footer-copyright{
+    border-top: 1px solid rgba(100, 255, 218, 0.1);
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.footer-copyright p{
+     color: #8892b0;
+    font-size: 0.9rem;
 }
